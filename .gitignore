@@ -1,2 +1,3 @@
 
-conf.d/proxy.fish
+conf.d/variables/proxy.fish
+!conf.d/variables/proxy.fish.template

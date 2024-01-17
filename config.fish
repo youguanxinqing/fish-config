@@ -8,7 +8,5 @@ function fish_prompt
     (set_color yellow) (fish_git_prompt) '$ '
 end
 
-source ~/.config/fish/functions/*.fish
-
 source ~/.config/fish/conf.d/alias.fish
 source ~/.config/fish/conf.d/cdpath.fish

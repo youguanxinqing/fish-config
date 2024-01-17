@@ -1,3 +1,4 @@
+source ~/.config/fish/functions/platform.fish
 
 # set cdptah
 set -gx CDPATH .

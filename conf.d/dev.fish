@@ -10,3 +10,11 @@ set -gx RUSTUP_UPDATE_ROOT https://rsproxy.cn/rustup
 # Js: fnm (https://github.com/Schniz/fnm)
 set PATH $PATH "$HOME/.local/share/fnm" 
 fnm env | source
+
+# Py
+# so slow!!!
+function load_py_env
+  set -Ux PYENV_ROOT $HOME/.pyenv
+  fish_add_path $PYENV_ROOT/bin
+  pyenv init - | source
+end

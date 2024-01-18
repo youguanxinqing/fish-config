@@ -10,3 +10,5 @@ end
 
 source ~/.config/fish/conf.d/alias.fish
 source ~/.config/fish/conf.d/cdpath.fish
+source ~/.config/fish/conf.d/dev.fish
+

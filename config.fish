@@ -2,6 +2,10 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+function fish_right_prompt
+  date "+%y-%m-%d %H:%M:%S"
+end
+
 function fish_prompt
   echo -n -s (set_color red) '@'(whoami) ' '\
     (set_color yellow) (prompt_pwd) \

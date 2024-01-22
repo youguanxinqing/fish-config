@@ -1,4 +1,6 @@
 
+set -gx EDITOR nvim
+
 # Go: install goup (https://github.com/owenthereal/goup)
 source ~/.go/env
 
